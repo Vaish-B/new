@@ -1,0 +1,18 @@
+welcome To this project create Rest API with crud operation in node js and mysql as a backend 
+
+firstly we have to install vs code and node js 
+after installing create empty folder with name in local drive any after that we have to select that folder and open terminal in vs code.
+ on terminal chek ur projet path is available or not on terminal 
+then start with  package.json dependencies install 
+npm init
+npm install express mysql nodemon dotenv
+now create index.js file it is entry point in your project we have to initialize connection crud operation in  this file  
+
+we have used Port=8089
+host=loalhost // we use local host as a xamp server for phpmyadmin mysql database
+
+install thunder client in vs code application and create new collection mysqlnode then create new request in that for exmple we have given name as like insert User 
+GET http://loalhost8089/insertUser then pass data in json body then press send button
+ we will display output in response field 
+
+use this for inser update delete  
